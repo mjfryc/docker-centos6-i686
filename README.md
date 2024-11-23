@@ -23,9 +23,12 @@ Build with plain output:
 PROGRESS_NO_TRUNC=1 docker build --progress plain --platform=linux/i686 -t mjfryc/centos6-i686-development:v1 --no-cache centos6-i686-development
 ```
 
-## centos-i686-devtoolset4
+## centos6-i686-devtoolset4
 
 The  [centos6-i686-development](#centos6-i686-development) image with Devtoolset-4, CMake-3.31.0 and OpenSSL-3.4.0 installed.
+
+> [!NOTE]
+> Copy [releases / v1 / devtoolset-4-centos6-i386-0.1_oc20170208-1.2.i686.rpm](https://github.com/mjfryc/docker-centos6-i686/releases/download/v1/devtoolset-4-centos6-i386-0.1_oc20170208-1.2.i686.rpm) file to `centos6-i686-devtoolset4` dorectory before building. This file is too big to be stored in source code repository.
 
 ### Run in temporary container
 
