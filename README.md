@@ -4,6 +4,8 @@ Docker CentOS6-i686 images with devtoolset4, openssl-3.4.0 and cmake-3.31.0 inst
 
 ## centos6-i686-development
 
+Available at [Docker hub](https://hub.docker.com/r/mjfryc/centos6-i686-development).
+
 CentOS6-i686 with _development_ software group installed.
 
 ### Run in temporary container
@@ -24,6 +26,8 @@ PROGRESS_NO_TRUNC=1 docker build --progress plain --platform=linux/i686 -t mjfry
 ```
 
 ## centos6-i686-devtoolset4
+
+Available at [Docker hub](https://hub.docker.com/r/mjfryc/centos6-i686-devtoolset4).
 
 The  [centos6-i686-development](#centos6-i686-development) image with Devtoolset-4, CMake-3.31.0 and OpenSSL-3.4.0 installed.
 
